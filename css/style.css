@@ -1,0 +1,267 @@
+/*Author==
+name:Soron
+gmail:shourovhossainsoron@gmail.com
+
+====index====
+1about
+2.contact
+3.our new
+4. our office
+===*/
+
+/* global css*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* theme css strat*/
+/*header*/
+.navbar{
+    background-color:white;
+    padding: 25px 0px;
+}
+
+.nav-link{
+    padding: 18px 28px;
+    color: #31353e;
+}
+
+.nav-link.js-scroll-trigger.active{
+    background-color: #dd4b2b;
+    padding: 18px 28px;
+    color: white;
+    border-radius: 50px;
+}
+.nav-item{
+    margin: 10px 5px!important;
+}
+
+/*hero section start*/
+.hero{
+    text-align: center;
+    width: 100%;
+    background-image: url(../img/hre.png);
+    background-size:cover ;
+    background-repeat: no-repeat;
+    
+}
+.hero-main{
+    padding-top: 553px;
+}
+.hero-title h2{
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    font-size: 60px;
+   
+    font-weight: 300;
+    
+}
+.hero-title p{
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+
+
+}
+
+.item-one{
+    margin-top: 115px;
+    padding: 0 20px;
+}
+.item-one h2{
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px;
+    margin-top: 15px;
+    font-weight: 600;
+}
+.item-one p{
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 30px;
+}
+.btn-one{
+    display: block;
+    margin: 75px auto;
+    color:#612316;
+    background-color: white;
+    padding: 16px 62px;
+    font-size: 30px;
+    font-weight: 600;
+    border-radius: 55px;
+    margin-bottom: 139px;
+    
+}
+
+/*hero section end*/
+
+/*content section start*/
+
+.content{
+    background: white;
+    text-align: center;
+}
+.content h2{
+    font-family: 'Roboto Slab', serif;
+    color: #31353e;
+    font-weight: 600;
+    margin: 60px 0px;
+}
+
+.content-item{
+    display: block;
+}
+.content-item img{
+    max-width: 100%;
+}
+.content-item h3{
+    font-family: 'Roboto Slab', serif;
+    color: #31353e;
+    margin-top: 35px;
+    margin-bottom: 12px;
+    font-weight: 900;
+}
+
+.content-item p{
+    font-family: 'Roboto Slab', serif;
+    color: #121314;
+    padding: 0 10px;
+    font-weight: 500;
+}
+.content-item a{
+    display: block;
+    margin-top: 40px;
+    margin-bottom: 105px;
+    color: #31353e;
+    font-weight: 600;
+}
+
+/*content section end*/
+/*contact section start*/
+.contact{
+    color: white;
+    text-align: center;
+    background-image: url(../img/contact1.png);
+    background-size: cover;
+}
+
+.contact h2{
+    margin-top: 80px;
+
+}
+.contact p{
+    width: 530px;
+    display: block;
+    margin: 0 auto;
+}
+
+.email{
+    width:600px ;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    margin-top: 45px;
+    padding-bottom: 111px;
+    margin-left: 50px;
+}
+.email-text{
+    background-color: rgba(255, 255, 255, 0.123);
+    font-size: 30px;
+    padding: 7px 15px;
+    border-radius: 50px;
+    color: aqua;
+    border-color:white;
+    width: 100%;
+    
+}
+
+.cont-btn{
+    position: absolute;
+    background: rgb(250, 248, 248);
+    padding: 10px 62px;
+    font-size: 26px;
+    border-radius: 55px;
+    top: 0px;
+    right: -29px;
+    color: violet;
+}
+
+/*album section start*/
+.album{
+    background-color: white;
+    padding: 100px 0px;
+}
+.album h2{
+    margin-bottom: 25px;
+    font-family: 'Roboto Slab', serif;
+    color: #31353e;
+    font-weight: 900;
+    font-size: 28px;
+}
+.first-album{
+    margin-bottom: 50px;
+}
+.album p{
+    margin-bottom: 50px;
+    font-size: 15px;
+    color: #121314;
+    font-weight: 500px;
+}
+.album img{
+    width: 90%;
+    border-radius: 5px;
+}
+
+
+
+
+
+/*media-query start*/
+@media (min-width:0px) and (max-width:768px){
+    .hero-main{
+        padding-top: 180px;
+    }
+    .hero-title h2{
+        font-size: 41px;
+        font-weight: 500;
+    }
+
+    .item-one{
+        margin-top: 80px;
+    }
+    .item-one p{
+        line-height: 20px;
+    }
+    .btn-one{
+        padding: 10px 45px;
+        margin-bottom: 60px;
+    }
+    /*content section*/
+    .content h2{
+        margin: 30px 0px;
+    }
+    .content-item p{
+        padding: 0px 140px;
+    }
+    .content-item a{
+        margin-top: 20px;
+        margin-bottom: 70px;
+    }
+    .email-text {
+        font-size: 20px;
+        padding: 7px 15px;
+        border-radius: 50px;
+        color: aqua;
+        border-color: white;
+        width: 100%;
+    }
+    .cont-btn {
+        padding: 4px 52px;
+        top: 0px;
+        right: 0px;
+    }
+}
